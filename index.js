@@ -94,7 +94,7 @@ const startAtlas = async () => {
         );
         process.exit();
       } else if (reason === DisconnectReason.loggedOut) {
-        clearState();
+       
         console.log(
           `[ ATLAS ] Device Logged Out, Please Delete Session and Scan Again.\n`
         );
